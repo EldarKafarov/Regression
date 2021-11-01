@@ -1,0 +1,208 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-28T20:53:22.744Z",
+        "before": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "steps.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Validate created employee persisted in database",
+        "description": "",
+        "id": "validate-create-employee-functionality;validate-created-employee-persisted-in-database",
+        "after": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "steps.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "user navigates to login page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "user logs in to HRapp",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "creates new employee",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "user validates new employee is created in database",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "user cleans created data",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HR-20"
+          },
+          {
+            "name": "#"
+          },
+          {
+            "name": "Basically,"
+          },
+          {
+            "name": "this"
+          },
+          {
+            "name": "is"
+          },
+          {
+            "name": "an"
+          },
+          {
+            "name": "id"
+          },
+          {
+            "name": "of"
+          },
+          {
+            "name": "the"
+          },
+          {
+            "name": "task/story"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Validate create employee functionality",
+    "description": "",
+    "id": "validate-create-employee-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/HR_Schema.feature",
+    "tags": [
+      {
+        "name": "@HR-20",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "#",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 8
+        }
+      },
+      {
+        "name": "Basically,",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 10
+        }
+      },
+      {
+        "name": "this",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 21
+        }
+      },
+      {
+        "name": "is",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 26
+        }
+      },
+      {
+        "name": "an",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 29
+        }
+      },
+      {
+        "name": "id",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 32
+        }
+      },
+      {
+        "name": "of",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 35
+        }
+      },
+      {
+        "name": "the",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 38
+        }
+      },
+      {
+        "name": "task/story",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 42
+        }
+      }
+    ]
+  }
+]
